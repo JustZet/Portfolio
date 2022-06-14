@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css2?family=Saira);
+* {
+    background-color: #e8e9f0;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav_element {
+    font-size: 25px;
+    display: inline;
+    padding: 14px 16px;
+}
+
+.nav_element a {
+    font-family: 'saira';
+    font-weight: bold;
+    text-decoration: none;
+    color: black
+}
+.nav_element a:visited{
+    color: #444549
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer_element {
+    font-size: 15px;
+    display: inline;
+    padding: 10px 10px;
+}
+.footer_element a {
+    font-family: 'saira';
+    font-weight: bold;
+    text-decoration: none;
+    color: black
+}
+
+
+
+#home {
+    height: 600px;
+    padding-top: 50%;
+    text-align: center;
+}
+#projects {
+    height: 600px;
+    padding-top: 50%;
+    text-align: center;
+}
+#contact { 
+    height: 100px;
+    padding-top: 50%;
+    text-align: center;
+}
