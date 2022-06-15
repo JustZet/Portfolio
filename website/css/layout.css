@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Saira);
 * {
     background-color: #e8e9f0;
+    box-sizing: border-box;
 }
 nav {
     margin: 0;
