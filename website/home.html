@@ -11,14 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
-
+	
     <title>Portofolio</title>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/88859552?v=4">
-    <script type="text/javascript" src="js/variables.js"></script>
 </head>
 <body>
     <nav>
@@ -31,12 +32,15 @@
       
     
     <article>
-        <div id="home">
+        <div id="home" class="col-12">
+		
+			<div class="content">
             Welcome! <br>
             My name is Sebastian, I have 19 years and a passion for programming <br>
             This is my portofolio webpage! <br>
-            
-            <div>Knowledge:</div>
+			</div>
+            <br>
+            <div><b>Knowledge:</b></div>
             <div class="slick">
                 <img src="assets/programming languages/css.png" alt="css logo">
                 <img src="assets/programming languages/html.png" alt="html logo">
@@ -47,36 +51,97 @@
                 <img src="assets/programming languages/mysql.png" alt="mysql logo">
                 <img src="assets/programming languages/mongodb.png" alt="mongodb logo">
                 <img src="assets/programming languages/github.png" alt="github logo">
-              </div>
-        </div>
-        <div id="projects">
-              
-            <h3>Projects: </h3>
-            <div class="projects">
-                <a id="discord-bot" href="https://top.gg/bot/982162391318036520">
-                    <img src="https://top.gg/api/widget/982162391318036520.svg">
-                </a>
+                <img src="assets/programming languages/python.png" alt="python logo">
             </div>
         </div>
+		
+        <div id="projects" class="col-12">
+            <h3>Projects: </h3>
+            <div class="projects">
+				<div id="discord-bot" class="col-12">
+					<div class="col-6" style="float: left">
+						I worked for create an discord bot
+						using my knowledge in python. <br>
+						<a href="www.github.com">Here</a> is source code. <br>
+					</div>
+					<a data-tilt style="float: left" class="col-6" href="https://top.gg/bot/982162391318036520">
+						<img src="https://top.gg/api/widget/982162391318036520.svg">
+					</a>
+				<div>
 
-        <div>
-            <form id="contact" action="post" enctype="multipart/form-data">
-                <label for="name">Name:</label> 
-                    <input type="text" id="name" title="Name" name="name" minlength="5" >
+                <div class="discord-server">
+                    <div class="col-6"style="float: right">
+                        Discord server<br>
+                    </div>
+                    <div class="col-6" style="float: right;">
+                        <iframe src="https://discord.com/widget?id=980868518394335302&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                </div>
 
-                <label for="email">Email:</label> 
-                    <input type="email" id="email" name="email">
+					<div class="col-6" style="float: left">
+                        <div class="project-title">
+						This was my first website from scratch.<br>
+                        </div>
+                        What website delivers?
 
-                <label for="subject">Subject:</label>
-                    <textarea name="subject" id="subject" cols="60" rows="10"></textarea>
+                        <ul style="text-align: left;">
+                            <li> 🌟 Interactive user interface. </li>
+                            <li> 📘 Api where is stored user information. </li>
+                            <li> 🗺️ Local database conexion. </li>
+                            <li> 🔑 Login, Create an account, and Disconnect methods. </li>
+                            <li> 💫 Dinamically user interaction. </li>
+                            <li> 📋 Profile image is stored in local folder and route is saved in database. </li>
+                        </ul>
 
-                <input type="submit" value="SEND">
-            </form>
+					</div>
+                    <div class="fade col-6" style="float: left;" data-tilt>
+                        <img src="assets/projects/website/login.png" style="border-radius: 10px">
+                        <img src="assets/projects/website/signup.png" style="border-radius: 10px">
+                    </div>
+				</div>
+				
+				<br>
+				
+				<div>
+					<div class="col-6" style="float: right">
+						I created mobile application from scratch. <br>
+					</div>
+                    <div hidden class="col-6" style="float: right;">
+                        <img src="assets/projects/mobile app/login.png" style="border-radius: 10px" width="200px">
+                        <img src="assets/projects/mobile app/register.png" width="200px">
+                        <img src="assets/projects/mobile app/signup.png" width="200px">
+                    </div>
+                    
+					
+				</div>
+
+            </div>
+        </div>
+		</div>
+
+        <div id="#contact">
+            <div class="wrapper">
+                <div class="title">
+                  <h1>contact</h1>
+                </div>
+                <div class="contact-form">
+                  <div class="input-fields">
+                    <input type="text" class="input" placeholder="Name">
+                    <input type="text" class="input" placeholder="Email Address">
+                    <input type="text" class="input" placeholder="Phone">
+                    <input type="text" class="input" placeholder="Subject">
+                  </div>
+                  <div class="msg">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn">send</div>
+                  </div>
+                </div>
+              </div>
         </div>
     </article>
 
     <footer>
-        <ul id=footer>
+        <ul class=footer>
             <li class=footer_element>
                 <a href="https://discord.com/channels/@me" target=_blank>
                     <img src="assets/discord-logo.png" alt="discord logo" width="19px">
@@ -97,35 +162,9 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        $('.slick').slick({
-            centerMode: true,
-            centerPadding: '30px',
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            autoplay: true,
-            responsive: [
-              {
-                breakpoint: 768,
-                settings: {
-                  arrows: false,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 3
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  arrows: false,
-                  centerMode: true,
-                  centerPadding: '40px',
-                  slidesToShow: 1
-                }
-              }
-            ]
-          });
-    </script>
+    <script src="js/slick.js"></script>
+    <script src="js/tilt.js"></script>
+    
 </body>
 </html>
 
