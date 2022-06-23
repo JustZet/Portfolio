@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url(https://fonts.googleapis.com/css2?family=Saira);
 
 .wrapper{
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 550px;
-    
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  font-family: 'saira';
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 550px;
+  
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .wrapper .title h1{
@@ -23,6 +23,7 @@
 }
 
 .input-fields{
+  
   display: flex;
   flex-direction: column;
   margin-right: 4%;
@@ -35,6 +36,7 @@
 
 .input-fields .input,
 .msg textarea{
+  
   margin: 10px 0;
   background: transparent;
   border: 0px;

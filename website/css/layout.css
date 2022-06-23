@@ -35,6 +35,9 @@ body {
   [class*="col-"] {
     width: 100%;
   }
+  .element {
+    text-align:center;
+  }
 }
 @media screen and (min-width: 668px) and (max-width: 1024px) {
 	[class*="col-"] {

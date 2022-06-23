@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/elements.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/88859552?v=4">
 </head>
 <body>
@@ -84,13 +85,12 @@
                         </div>
                         What website delivers?
 
-                        <ul style="text-align: left;">
-                            <li> 🌟 Interactive user interface. </li>
-                            <li> 📘 Api where is stored user information. </li>
-                            <li> 🗺️ Local database conexion. </li>
-                            <li> 🔑 Login, Create an account, and Disconnect methods. </li>
-                            <li> 💫 Dinamically user interaction. </li>
-                            <li> 📋 Profile image is stored in local folder and route is saved in database. </li>
+                        <ul class="elements">
+                            <li class="element"> <span> 🌟 Interactive UI. </span> </li>
+                            <li class="element"> <span> 📘 User api.</span> </li>
+                            <li class="element"> <span> 🗺️ Database conexion.</span> </li>
+                            <li class="element"> <span> 🔑 Login, Signin and Disconnect. </span> </li>
+                            <li class="element"> <span> 📋 Store profile image. </span></li>
                         </ul>
 
 					</div>
@@ -124,19 +124,19 @@
                 <div class="title">
                   <h1>contact</h1>
                 </div>
-                <div class="contact-form">
+                <form action="https://formsubmit.co/fsflorentin@email.com" method="POST" class="contact-form">
                   <div class="input-fields">
-                    <input type="text" class="input" placeholder="Name">
-                    <input type="text" class="input" placeholder="Email Address">
-                    <input type="text" class="input" placeholder="Phone">
-                    <input type="text" class="input" placeholder="Subject">
+                    <input type="text" name="name" class="input" placeholder="Name">
+                    <input type="text" name="email" class="input" placeholder="Email Address">
+                    <input type="text" name="phone" class="input" placeholder="Phone">
+                    <input type="text" name="subject" class="input" placeholder="Subject">
                   </div>
                   <div class="msg">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea name="message" placeholder="Message"></textarea>
                     <div class="btn">send</div>
-                  </div>
+                </form>
                 </div>
-              </div>
+            </div>
         </div>
     </article>
 
