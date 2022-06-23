@@ -14,13 +14,16 @@
 	
     <title>Portofolio</title>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/layout.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/containers/contact.css">
+    <link rel="stylesheet" href="css/containers/projects.css">
     <link rel="stylesheet" href="css/elements.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/88859552?v=4">
+
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
     <nav>
@@ -36,7 +39,7 @@
         <div id="home" class="col-12">
 		
 			<div class="content">
-            Welcome! <br>
+            <h2>Welcome!</h2> <br>
             My name is Sebastian, I have 19 years and a passion for programming <br>
             This is my portofolio webpage! <br>
 			</div>
@@ -57,34 +60,32 @@
         </div>
 		
         <div id="projects" class="col-12">
-            <h3>Projects: </h3>
+            <h2 style="margin-bottom: 60px">Projects:</h2>
             <div class="projects">
-				<div id="discord-bot" class="col-12">
-					<div class="col-6" style="float: left">
+                    
+				<div id="discord-bot" class="project discord-bot col-12">
+					<div class="col-6 project-title float-left">
 						I worked for create an discord bot
 						using my knowledge in python. <br>
 						<a href="www.github.com">Here</a> is source code. <br>
 					</div>
-					<a data-tilt style="float: left" class="col-6" href="https://top.gg/bot/982162391318036520">
+					<a data-tilt class="col-6 project-element float-left" href="https://top.gg/bot/982162391318036520">
 						<img src="https://top.gg/api/widget/982162391318036520.svg">
 					</a>
-				<div>
+                </div>
 
-                <div class="discord-server">
-                    <div class="col-6"style="float: right">
+                <div class="project discord-server">
+                    <div class="project-title col-6 float-right">
                         Discord server<br>
                     </div>
-                    <div class="col-6" style="float: right;">
+                    <div class="project-element col-6 float-right">
                         <iframe src="https://discord.com/widget?id=980868518394335302&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                     </div>
                 </div>
-
-					<div class="col-6" style="float: left">
-                        <div class="project-title">
-						This was my first website from scratch.<br>
-                        </div>
-                        What website delivers?
-
+                
+                <div class="project website col-12">
+					<div class="project-title col-6 float-left">
+                        What website proide?
                         <ul class="elements">
                             <li class="element"> <span> 🌟 Interactive UI. </span> </li>
                             <li class="element"> <span> 📘 User api.</span> </li>
@@ -94,32 +95,29 @@
                         </ul>
 
 					</div>
-                    <div class="fade col-6" style="float: left;" data-tilt>
+                    <div class="project-element fade col-6 float-left" data-tilt>
                         <img src="assets/projects/website/login.png" style="border-radius: 10px">
                         <img src="assets/projects/website/signup.png" style="border-radius: 10px">
                     </div>
 				</div>
-				
-				<br>
-				
-				<div>
-					<div class="col-6" style="float: right">
-						I created mobile application from scratch. <br>
-					</div>
-                    <div hidden class="col-6" style="float: right;">
-                        <img src="assets/projects/mobile app/login.png" style="border-radius: 10px" width="200px">
-                        <img src="assets/projects/mobile app/register.png" width="200px">
-                        <img src="assets/projects/mobile app/signup.png" width="200px">
+
+                <div class="project col-12">
+                    <div class="project-title col-6" style="float: right">
+                        I created mobile application from scratch. <br>
                     </div>
-                    
-					
-				</div>
+                    <div class="phone-app project-element col-6" style="float: right;">
+                        <img src="assets/projects/mobile app/register.png">
+                        <img src="assets/projects/mobile app/login.png">
+                        <img src="assets/projects/mobile app/signup.png">
+                    </div>
+                </div>
+			</div>
+				
 
-            </div>
         </div>
-		</div>
 
-        <div id="#contact">
+
+        <div id="contact">
             <div class="wrapper">
                 <div class="title">
                   <h1>contact</h1>

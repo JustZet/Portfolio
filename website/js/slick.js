@@ -19,8 +19,8 @@ $('.slick').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
+        centerPadding: '50px',
+        slidesToShow: 2
       }
     }
   ]
@@ -32,4 +32,13 @@ $('.fade').slick({
   speed: 500,
   fade: true,
   cssEase: 'linear'
+});
+
+$('.phone-app').slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+
 });
