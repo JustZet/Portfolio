@@ -7,6 +7,24 @@
 
     outline: none;
 }
+
+#home {
+  padding-top: 300px;
+padding-bottom: 200px;
+  text-align: center;
+  font-family: 'saira';
+}
+#projects {
+  font-family: 'saira';
+  padding-top: 300px;
+  padding-bottom: 2000px;
+  text-align: center;
+}
+
+
+
+
+
 body {    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,42 +48,67 @@ body {
 }
 
 
+/* Mobile devices */
+@media screen and (min-width: 1px)
+              and (max-width: 480px) {
 
-@media screen and (max-width: 668px) {
   [class*="col-"] {
     width: 100%;
   }
+  .element {
+    text-align:center;
+  }
+  .slick {
+    width: 100%;
+  }
+  /* contact container */
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
 }
-@media screen and (min-width: 668px) and (max-width: 1024px) {
+/* iPads, Tablets */
+@media screen and (min-width: 481px) 
+              and (max-width: 768px) {
+                
+  [class*="col-"] {
+    width: 100%;
+  }
+  .element {
+    text-align:center;
+  }
+  /* contact container */
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+
+}
+/* Small screens, laptops */
+@media screen and (min-width: 769px)
+              and (max-width: 1024px) {
 	[class*="col-"] {
     margin: 0 auto;
   }
 
-}
-@media screen and (min-width: 1024px) {
-	[class*="col-"] {
-    margin: 0 auto;
-  }
-}
 
-
-
-#home {
-    padding-top: 300px;
-	padding-bottom: 200px;
-    text-align: center;
-    font-family: 'saira';
 }
-#projects {
-    font-family: 'saira';
-    padding-top: 300px;
-	padding-bottom: 1500px;
-    text-align: center;
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) 
+              and (max-width: 1200px)
+{
+  
 }
 
-
-
-
-.project-title {
-  font-size: 25px;
-}
