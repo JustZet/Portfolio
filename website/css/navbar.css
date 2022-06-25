@@ -3,18 +3,18 @@ nav {
     padding: 0;
     text-align: center;
 }
-.nav_element {
+.nav-element {
     font-size: 25px;
     display: inline;
     padding: 14px 16px;
 }
 
-.nav_element a {
+.nav-element a {
     font-family: 'saira';
     font-weight: bold;
     text-decoration: none;
     color: black
 }
-.nav_element a:visited{
+.nav-element a:visited{
     color: #444549
 }

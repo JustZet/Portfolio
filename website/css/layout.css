@@ -40,19 +40,12 @@ body {
 	[class*="col-"] {
     margin: 0 auto;
   }
-  #contact {
-	  width: 750px
-  }
 
 }
 @media screen and (min-width: 1024px) {
 	[class*="col-"] {
     margin: 0 auto;
   }
-  #contact {
-	width: 750px
-  }
-
 }
 
 

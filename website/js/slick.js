@@ -15,12 +15,12 @@ $('.slick').slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 580,
       settings: {
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 2
       }
     }
   ]
