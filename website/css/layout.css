@@ -17,7 +17,7 @@ padding-bottom: 200px;
 #projects {
   font-family: 'saira';
   padding-top: 300px;
-padding-bottom: 1500px;
+  padding-bottom: 2000px;
   text-align: center;
 }
 
@@ -112,9 +112,3 @@ body {
   
 }
 
-.phone-app {
-  width: 200px;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-}

@@ -4,6 +4,7 @@ $('.slick').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
+  ResizeObserverSize: true,
   responsive: [
     {
       breakpoint: 768,
@@ -35,7 +36,6 @@ $('.fade').slick({
 });
 
 $('.phone-app').slick({
-  centerMode: true,
   centerPadding: '0px',
   slidesToShow: 1,
   slidesToScroll: 1,
