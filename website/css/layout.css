@@ -1,28 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Saira);
-* {
-    background-color: #e8e9f0;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-    outline: none;
-}
-
-#home {
-  padding-top: 300px;
-padding-bottom: 200px;
-  text-align: center;
-  font-family: 'saira';
-}
-#projects {
-  font-family: 'saira';
-  padding-top: 300px;
-  padding-bottom: 2000px;
-  text-align: center;
-}
-
-
-
 
 
 body {    
@@ -72,6 +48,9 @@ body {
   .msg{
     width: 100%;
   }
+  .tools-carousel {
+    width: 100px;
+  }
 }
 /* iPads, Tablets */
 @media screen and (min-width: 481px) 
@@ -79,6 +58,9 @@ body {
                 
   [class*="col-"] {
     width: 100%;
+  }
+  .tools-carousel {
+    width: 150px;
   }
   .element {
     text-align:center;
@@ -103,7 +85,9 @@ body {
     margin: 0 auto;
   }
 
-
+  .tools-carousel {
+    width: 250px;
+  }
 }
 /* Desktops, large screens */
 @media screen and (min-width: 1025px) 

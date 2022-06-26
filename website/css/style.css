@@ -1,6 +1,30 @@
 @import url(https://fonts.googleapis.com/css2?family=Saira);
+* {
+  background-color: #e8e9f0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+#home {
+padding-top: 300px;
+padding-bottom: 200px;
+text-align: center;
+font-family: 'saira';
+}
+#projects {
+font-family: 'saira';
+padding-top: 300px;
+padding-bottom: 2000px;
+text-align: center;
+}
 
 
+.home-content{
+  font-size: 18px;
+}
 .slick {
   width: 50%;
   margin: 0 auto;

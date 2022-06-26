@@ -72,3 +72,6 @@
     text-transform: uppercase;
 }
 
+.btn:hover {
+  background: #394357;
+}

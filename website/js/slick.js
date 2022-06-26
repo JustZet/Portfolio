@@ -3,6 +3,7 @@ $('.slick').slick({
   centerPadding: '60px',
   slidesToShow: 5,
   slidesToScroll: 1,
+  cssEase: 'linear',
   autoplay: true,
   ResizeObserverSize: true,
   responsive: [
@@ -21,7 +22,7 @@ $('.slick').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '50px',
-        slidesToShow: 2
+        slidesToShow: 3
       }
     }
   ]
@@ -35,10 +36,39 @@ $('.fade').slick({
   cssEase: 'linear'
 });
 
-$('.phone-app').slick({
+$('.mobile-app-slick').slick({
   centerPadding: '0px',
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
 
+});
+
+$('.tools-carousel').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  cssEase: 'linear',
+  autoplay: true,
+  ResizeObserverSize: true,
+  centerMode: true,
+  centerPadding: '10px',
+  arrows:false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 481,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1,
+      }
+    }
+  ]
 });
