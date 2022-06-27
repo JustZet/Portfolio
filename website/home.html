@@ -24,6 +24,13 @@
     <link rel="icon" href="https://avatars.githubusercontent.com/u/88859552?v=4">
 
     <link rel="stylesheet" href="css/layout.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+        new Crate({
+          server: '980868518394335302',
+          channel: '981192267169685515',
+        })
+      </script>
 </head>
 <body>
     <nav>
@@ -85,6 +92,13 @@
 					<a data-tilt data-tilt-scale="1.2" data-tilt-max="3" class="col-6 project-element float-left" href="https://top.gg/bot/982162391318036520">
 						<img src="https://top.gg/api/widget/982162391318036520.svg">
 					</a>
+                    <!-- <widgetbot
+                    server="980868518394335302"
+                    channel="990893342726434877"
+                    width="600"
+                    height="400"
+                    ></widgetbot> -->
+                    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
                 </div>
 
                 <div class="project discord-server">
@@ -145,16 +159,17 @@
                 <div class="title">
                   <h1>contact</h1>
                 </div>
-                <form method="POST" class="contact-form">
+                <form action="https://formsubmit.co/5029b5a0b3e195a2a14abee1051aecd6" method="POST" class="contact-form">
                   <div class="input-fields">
-                    <input type="text" name="name" class="input" placeholder="Name">
-                    <input type="text" name="email" class="input" placeholder="Email Address">
-                    <input type="text" name="phone" class="input" placeholder="Phone">
-                    <input type="text" name="subject" class="input" placeholder="Subject">
+                    <input required type="text" name="name" class="input" placeholder="Name">
+                    <input required type="text" name="email" class="input" placeholder="Email Address">
+                    <input required type="text" name="phone" class="input" placeholder="Phone">
+                    <input required type="text" name="subject" class="input" placeholder="Subject">
                   </div>
                   <div class="msg">
                     <textarea name="message" placeholder="Message"></textarea>
-                    <div class="btn">send</div>
+                    
+                    <button type="submit" class="btn">send</button>
                 </form>
                 </div>
             </div>
